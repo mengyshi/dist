@@ -1,0 +1,57 @@
+section{
+    width: 100%;
+    background: #CECECE;
+    height: 1000px;
+    .detail{width: 1200px;height: 1000px;background: #fff;margin: 0 auto;
+        .detail-title{
+            width:100%;background: #cecece;height: 30px;
+        }
+        .detail-content{
+            width: 100%;
+            
+            .dc-left{
+                
+                width:422px;height: 538px;
+                padding: 5px;
+                float: left;
+                position: relative;
+                .midbox{width: 85%;height:85%;
+                position: relative;
+                    img{width: 100%;height:100%;border: 1px solid #cecece;}
+                    .fdj{width:50%;height: 50%;position:absolute;left: 0;top: 0;background: #FFFA90;opacity:0.3;display: none; cursor: move;}
+                }
+
+                .img-list{width: 85%;height: 14%;margin-top: 5px;padding: 3px;border: 1px solid #cecece;
+                 img{width: 65px;height: 65px;border: 1px solid #solid;margin: 3px;float: left;}
+                }
+                .zoom{position:absolute;width:85%;height: 85%;background: #0ff;left: 85%;top: 0; display:none;overflow: hidden;;
+                    img{width: 200%;height:200%;position: absolute;}
+                }
+            }
+            .dc-right{
+                float: left;
+                width: 730px;height: 448px;
+                p{width: 100%;height: 30px;font-size: 16px;line-height: 30px;margin: 15px 0;
+                span{padding-left: 50px;}
+                }
+                p:nth-of-type(1){
+                    width: 100%;height: 40px;line-height: 40px;font-size: 16px;
+                    span{padding-left:0;width: 40px;height: 40px;float: left;background: #f00;border-radius: 50%;line-height: 40px;}
+                }
+                p:nth-of-type(2){display: block;white-space: nowrap;overflow: hidden;text-overflow: ellipsis; width: 100%;height: 30px;font-size: 18px;}
+                .transport{ span{padding-left: 50px;}font-size:14px;width: 100%;height: 30px;line-height: 30px;
+         
+                }
+                .number{ margin:25px 0;font-size:14px;width: 100%;height: 30px;line-height: 30px;input{width:60px;border: 0;height: 22px;border: 1px solid #cecece;}
+                button:nth-of-type(1){margin-left:30px;}
+                button{width: 15px; }
+                }
+                .buygoods{float:left;width: 120px;border: 0;background: rgb(229,0,75);color: #fff;height: 35px;margin-left: 100px;margin-right: 10px;}
+                .khd{float:left;width: 120px;border:1px solid rgb(229,0,75);color:rgb(229,0,75);height: 33px;text-align: center ;line-height: 33px;}
+                span:nth-last-child{&:hover{color: rgb(229,0,75);}}
+                
+            }
+        }
+    
+    }
+}

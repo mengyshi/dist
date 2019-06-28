@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+	
+			
+		
+	</head>
+	<body>
+	<header>
+
+			<div class="z-top">
+				<div class="top">
+						<nav class="header-nav">
+							<span class="nav-left">欢迎来到速普商城! <em>[<a href="login-index.html">登录</a>][<a href="register.html">免费注册</a>]</em></span>
+							<ul>
+								<li><a href="#">消费者告知书</a></li>
+								<li><a href="#">我的订单</a></li>
+								<li><a href="#">我的速普</a><span></span><div><p>我的优惠卷</p><p>我的收藏</p><p>我的积分</p><p>现金账户</p><p>待评价</p></div></li>
+								<li><a href="#">手机端</a><span></span><div><img src="img/weixin.jpg"/><img src="img/app.jpg"/>
+								</div></li>
+								<li><a href="#">网站导航</a></li>
+								<li><a href="#">400-618-0055</a><span></span><div><p>帮助中心</p><p>400-618-0055</p></div></li>
+							</ul>
+						</nav>
+						
+						
+				</div>
+			</div>
+			<div class="middlex">
+						<div class="middle">
+							<div class="middle-img">
+								<a href="index.html">
+									<img src="img/logo.jpg" />
+								</a>
+						</div>
+						<!--<div class="middle-search">
+								<form action="" method="get" name="searchform" id="searchform" class="searchinfo">
+									<div class="search_icon "></div>
+									<input type="text" name="keywords" class="keywords"/>
+									<div class="suggest-box"></div>
+                    				<input name="search_btn" type="submit" id="search_btn" value="搜索">
+								</form>
+								<div id="search-hot">
+									<ul>
+										<li>热门搜索：</li>
+										<li>荷兰牛栏</li>
+										<li>花王</li>
+										<li>惠氏</li>
+										<li>好奇</li>
+										<li>新安怡</li>
+										<li>嘉宝</li>
+									</ul>
+								</div>
+							</div>-->
+							<div class="middle-cart">
+								<a class="cart_small" href="cartList.html" target="_blank">
+									<b></b> 
+									<span class="cart_span">购物车</span> 
+									<i class="triangle-left"></i> 
+									<em class="cart_no fl">0</em>
+                   				 <div class="clear"></div>
+                				</a>
+							</div>
+						</div>
+					</div>
+			<div class="main-maxnav">
+						<div class="main-nav">
+							<div class="classify">全部商品分类</div>
+							<!--<div class="classify-list">
+								<div class="classify-list-next">
+									<div class="list-next"></div>
+								</div>
+							</div>-->
+							<ul>
+								<li><a href="#">限时特卖</a></li>
+								<li><a href="#">白菜专区</a></li>
+								<li><a href="#">全球购</a></li>
+								<li><a href="#">手机客户端</a><span></span></li>
+								<li><a href="#">在线客服</a></li>
+							</ul>
+						</div>
+			</div>
+		</header>
+	<section>
+	<div class="cart-title"><span></span>我的购物车</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<td>选择</td>
+					<td>缩略图</td>
+					<td>商品信息</td>
+					<td>单价</td>
+					<td>数量</td>
+					<td>小计</td>
+					<td>操作</td>
+				</tr>
+				<tr></tr>
+			</thead>
+			<tbody id="tb"></tbody>
+			<tfoot>
+				<tr>
+					<td><span>全选</span>&nbsp;<input type="checkbox" id="selectAll"/></td>
+					
+					<td id="clearAll">清空购物车</td>
+					<td>已选择<span id="count" style="color:rgb(229,0,75);font-size: 20px;">0</span>件商品</td>
+					<td id="total"><sapn>总价</sapn><span style="color:rgb(229,0,75);font-size: 20px;">0</span>元</td>
+					<td ><input type="button" value="去结算" style="background: rgb(229,0,75);width: 150px;border: 0;height: 30px;color: #fff;"/></td>
+				</tr>
+			</tfoot>
+		</table>
+	
+	</section>
+	</body>
+</html>

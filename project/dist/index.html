@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>-->
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		
+		<header>
+			<div class="z-top">
+				<div class="top">
+						<nav class="header-nav">
+							<span class="nav-left">欢迎来到速普商城! <em>[<a href="login-index.html">登录</a>][<a href="register.html">免费注册</a>]</em></span>
+							<ul>
+								<li><a href="#">消费者告知书</a></li>
+								<li><a href="#">我的订单</a></li>
+								<li><a href="#">我的速普</a><span></span><div><p>我的优惠卷</p><p>我的收藏</p><p>我的积分</p><p>现金账户</p><p>待评价</p></div></li>
+								<li><a href="#">手机端</a><span></span><div><img src="img/weixin.jpg"/><img src="img/app.jpg"/>
+								</div></li>
+								<li><a href="#">网站导航</a></li>
+								<li><a href="#">400-618-0055</a><span></span><div><p>帮助中心</p><p>400-618-0055</p></div></li>
+							</ul>
+						</nav>
+						
+						
+				</div>
+			</div>
+			<div class="middlex">
+						<div class="middle">
+							<div class="middle-img">
+								<a href="http://localhost:8080/index.html">
+									<img src="img/logo.jpg" />
+								</a>
+						</div>
+						<div class="middle-search">
+								<form action="" method="get" name="searchform" id="searchform" class="searchinfo">
+									<div class="search_icon "></div>
+									<input type="text" name="keywords" class="keywords"/>
+									<div class="suggest-box"></div>
+                    				<input name="search_btn" type="submit" id="search_btn" value="搜索">
+								</form>
+								<div id="search-hot">
+									<ul>
+										<li>热门搜索：</li>
+										<li>荷兰牛栏</li>
+										<li>花王</li>
+										<li>惠氏</li>
+										<li>好奇</li>
+										<li>新安怡</li>
+										<li>嘉宝</li>
+									</ul>
+								</div>
+							</div>
+							<div class="middle-cart">
+								<a class="cart_small" href="cartList.html" >
+									<b></b> 
+									<span class="cart_span">购物车</span> 
+									<i class="triangle-left"></i> 
+									<em class="cart_no fl">0</em>
+                   				 <div class="clear"></div>
+                				</a>
+							</div>
+						</div>
+					</div>
+			<div class="main-maxnav">
+						<div class="main-nav">
+							<div class="classify">全部商品分类</div>
+							<div class="classify-list">
+								<!--<div class="classify-list-next">
+									<!--<div class="list-next"></div>
+								</div>-->
+							</div>
+							
+							<div class="ad"></div>
+							<ul>
+								<li><a href="#">限时特卖</a></li>
+								<li><a href="#">白菜专区</a></li>
+								<li><a href="#">全球购</a></li>
+								<li><a href="#">手机客户端</a><span></span></li>
+								<li><a href="#">在线客服</a></li>
+							</ul>
+						</div>
+			</div>
+			<div class="line-right">
+				<a href="cartList.html"><div class="n1"><span>我的购物车</span></div></a>
+				<div class="n2"><span>我的收藏</span></div>
+				
+				
+			</div>
+			<div class="ad-bottom">在线客服</div>
+		</header>
+		<section>
+			<div class="banner">
+				<div class="banner-img">
+					<img src="img/banner1.jpg" />
+				</div>
+				<span>&lt;</span>
+				<span>&gt;</span>
+				<span></span>
+			</div>
+			<div class="m-shop">
+				<div class="shop">
+					<div class="shop-title">
+							<span>整点抢购</span>
+							<span>当日整点抢购，全网最低</span>
+							<span>明日抢购   ></span>	
+					</div>
+					<div class="shop-main">
+						<div class="shop-main-title">
+							<div class="clock">
+								距离本场结束<span>0</span>小时<span>0</span>分钟<span>0</span>秒
+							</div>
+							<ul class="time">
+								<li>
+									<div class="state">
+										<img src="img/state.png" />
+									</div>
+									<div class="tim">10:00</div>
+								</li>
+								<li>
+									<div class="state">
+										<img src="img/state.png" />
+									</div>
+									<div class="tim">14:00</div>
+								</li>
+								<li>
+									<div class="state">
+										<img src="img/state.png" />
+									</div>
+									<div class="tim">20:00</div>
+								</li>
+							</ul>
+						</div>
+						<div class="shop-main-content">
+					<span></span>
+					<ul class="list">
+						
+					<!--	<li>
+							<img src="img/zdqg.jpg" width="90%" height="70%"/>
+							<p> TIGER 日本虎牌儿童保温杯 MBR-B06G RL (直饮盖+杯盖）小狮子600ML </p>
+							<p>￥320元</p>
+							<p><del>￥3元</del></p>
+							<div class="shadow">
+								
+							</div>
+							<div class="buy">立即抢购</div>
+						</li>
+						
+						<li>
+							<img src="img/zdqg.jpg" width="90%" height="70%"/>
+							<p> TIGER 日本虎牌儿童保温杯 MBR-B06G RL (直饮盖+杯盖）小狮子600ML </p>
+							<p>￥320元</p>
+							<p><del>￥3元</del></p>
+							<div class="shadow">
+								
+							</div>
+							<div class="buy">立即抢购</div>
+						</li>
+						<li>
+							<img src="img/zdqg.jpg" width="90%" height="70%"/>
+							<p> TIGER 日本虎牌儿童保温杯 MBR-B06G RL (直饮盖+杯盖）小狮子600ML </p>
+							<p>￥320元</p>
+							<p><del>￥3元</del></p>
+							<div class="shadow">
+								
+							</div>
+							<div class="buy">立即抢购</div>
+						</li>
+						
+						<li>
+							<img src="img/zdqg.jpg" width="90%" height="70%"/>
+							<p> TIGER 日本虎牌儿童保温杯 MBR-B06G RL (直饮盖+杯盖）小狮子600ML </p>
+							<p>￥320元</p>
+							<p><del>￥3元</del></p>
+							<div class="shadow">
+								
+							</div>
+							<div class="buy">立即抢购</div>
+						</li>
+						
+						<li>
+							<img src="img/zdqg.jpg" width="90%" height="70%"/>
+							<p> TIGER 日本虎牌儿童保温杯 MBR-B06G RL (直饮盖+杯盖）小狮子600ML </p>
+							<p>￥320元</p>
+							<p><del>￥3元</del></p>
+							<div class="shadow">
+								
+							</div>
+							<div class="buy">立即抢购</div>
+						</li>-->
+					</ul>
+					<script>
+						
+					</script>
+					<span></span>
+				</div>
+					</div>
+				</div>
+				
+				
+			</div>
+			<div class="temaix">
+				<div class="temai">
+					<div class="temai-title">
+						<span>限时特卖 </span>
+						<span>品牌汇集，一站购齐</span>
+						<span>更多特卖 ></span>
+					</div>
+					<div class="temai-content">
+						<div class="tc-left">
+							<div class="floor-name">
+								<img src="img/floor1.png"/>
+								<span>妈妈专区</span>
+							</div>
+							<div class="floor-nav-list">
+								<ul>
+									  <li class="hot1" ><a href="#">束腹收腹</a></li>
+									  <li><a href="#">卫生护理</a></li>
+									  <li class="hot1" ><a href="#">束腹收腹</a></li>
+									  <li><a href="#">卫生护理</a></li>
+									  <li class="hot1" ><a href="#">束腹收腹</a></li>
+									  <li><a href="#">卫生护理</a></li>
+									  <li class="hot1" ><a href="#">束腹收腹</a></li>
+									  <li><a href="#">卫生护理</a></li>
+									  </ul>
+								<div class="flexslide">
+									<span></span>
+									<div class="flex-view">
+										<ul>
+											<li>
+												
+                                                	
+                                                    <img src="http://img30.supumall.com/img/1442565372" title="开丽" alt="开丽"  height="48px">
+                                                
+                                                    <img src="http://img30.supumall.com/img/1442565860" title="六甲村" alt="六甲村"  height="48px">
+                                             
+                                                    <img src="http://img30.supumall.com/img/1442565117" title="十月天使" alt="十月天使"  height="48px">
+                                               
+                                               
+                                            </li>  
+                                            <li>
+                                            	
+                                                    <img src="http://img30.supumall.com/img/1446117886" title="十月结晶" alt="十月结晶"  height="48px">
+                                               
+                                                    <img src="http://img30.supumall.com/img/1446106284" title="三美婴" alt="三美婴"  height="48px">
+                                               
+                                                    <img src="http://img30.supumall.com/img/1442565117" title="添香" alt="添香"  height="48px">
+                                              
+                                            </li>
+                                            <li>
+                                            	
+                                                    <img src="http://img30.supumall.com/img/1442565283" title="婷美" alt="婷美"  height="48px">
+                                                                                        
+                                               
+                                                    <img src="http://img30.supumall.com/img/1442565908" title="妈咪秘密" alt="妈咪秘密"  height="48px">
+                                              
+                                              
+                                                    <img src="http://img30.supumall.com/img/1442566043" title="贝亲Pigeon" alt="贝亲Pigeon"  height="48px">
+                                                
+                                            </li>
+                                 
+										</ul>  
+                                                
+                                               
+                                                <!--<div class="brand-list">
+                                                	
+                                                </div>
+                                                <div class="brand-list">
+                                                	
+                                                </div>  -->
+                                               
+                                                                                           
+                                         
+									</div>
+									<!--<div></div>-->
+									<span></span>
+								</div>
+							</div>
+							
+						</div>
+						<div class="tc-mid" style="
+                    width:400px;height: 441px;border: 1px solid rgb(232,232,232);float: left;position: relative; overflow: hidden;">
+                              <a href="#"  >
+                                    <img src="img/bank.jpg" width="100%" height="100%" style="position: absolute; left: 0; display: block;"/>
+                                     <img src="img/bank.jpg" width="120%" height="120%" style="position: absolute; left:-50px; top: -20px; display: none;"/>
+                                </a>                         
+						</div>
+						<ul class="tc-right">
+							
+							<li>
+							<h3>爱乐爱</h3>
+							<p>乐享SPA般享受</p>
+							<img src="img/temai.jpg" width="90%" height="70%"/>
+							
+							
+						</li>
+						<li>
+							<h3>爱乐爱</h3>
+							<p>乐享SPA般享受</p>
+							<img src="img/temai.jpg" width="90%" height="70%"/>
+							
+							
+						</li>
+						<li>
+							<h3>爱乐爱</h3>
+							<p>乐享SPA般享受</p>
+							<img src="img/temai.jpg" width="90%" height="70%"/>
+							
+							
+						</li>
+						<li>
+							<h3>爱乐爱</h3>
+							<p>乐享SPA般享受</p>
+							<img src="img/temai.jpg" width="90%" height="70%"/>
+							
+							
+						</li>
+						<li>
+							<h3>爱乐爱</h3>
+							<p>乐享SPA般享受</p>
+							<img src="img/temai.jpg" width="90%" height="70%"/>
+							
+							
+						</li>
+						<li>
+							<h3>爱乐爱</h3>
+							<p>乐享SPA般享受</p>
+							<img src="img/temai.jpg" width="90%" height="70%"/>
+							
+							
+						</li>
+						<li>
+							<h3>爱乐爱</h3>
+							<p>乐享SPA般享受</p>
+							<img src="img/temai.jpg" width="90%" height="70%"/>
+							
+							
+						</li>
+						<li>
+							<h3>爱乐爱</h3>
+							<p>乐享SPA般享受</p>
+							<img src="img/temai.jpg" width="90%" height="70%"/>
+							
+							
+						</li>
+						
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="muying_contentx">
+				<div class="muying_content">
+					<div class="mc-title">
+						<span>母婴生活汇 </span>
+						<span>品牌汇集，一站购齐</span>
+						
+					</div>
+					<ul class="mc_list">
+			            <li style="margin-right: 13px;"><a href="#"><img class="lazy" src="img/my_qz.jpg" alt="亲子活动"></a></li>
+			            <li style="margin-right: 13px;"><a href="#"><img class="lazy" src="img/my_ym.jpg" alt="孕妈宝宝秀"></a></li>
+			            <li><a href="#"><img class="lazy" src="img/my_bb.jpg" alt="育儿百宝箱"></a></li>
+	        		</ul>
+				</div>
+			</div>
+			
+	       
+	        
+
+		</section>
+		<footer>
+			
+			    <div class="supuy_cultrue">
+			        <div class="wrap_1200">
+			            <div class="cultrue_img ">
+			                <img src="img/point3.png" />
+			            </div>
+			            <div class="cultrue_img ">
+			                <img src="img/point2.png"/>
+			            </div>
+			            <div class="cultrue_img ">
+			                <img src="img/point1.png" />
+			            </div>
+			            <div class="cultrue_img ">
+			                <img src="img/point2.png" />
+			            </div>
+			        </div>
+			    </div>
+			    <div class="footer_nav">
+			        <div class="wrap_1200">
+			            <div class="footer_nav_ul fl">
+			                <div class="footer_nav_ul_t">
+			                    <h3>新手指南</h3>
+			                </div>
+			                <ul>
+			                   
+			                    <li><a href="#">购物流程</a> </li>
+			                    <li><a href="#">会员介绍</a> </li>
+			                    <li><a href="#">积分制度</a> </li>
+			                </ul>
+			            </div>
+			            <div class="footer_nav_ul fl">
+			                <div class="footer_nav_ul_t">
+			                    <h3>物流配送</h3>
+			                </div>
+			                <ul>
+			                    <li><a href="#">配送服务</a> </li>
+			                    <li><a href="#">验货签收</a> </li>
+			                    <li><a href="#">速普快递</a> </li>
+			                </ul>
+			            </div>
+			            <div class="footer_nav_ul fl">
+			                <div class="footer_nav_ul_t">
+			                    <h3>支付方式</h3>
+			                </div>
+			                <ul>
+			                    <li><a href="#">货到付款</a></li>
+			                    <li><a href="#">在线支付</a></li>
+			                    <li><a href="#">现金账户</a></li>
+			                </ul>
+			            </div>
+			            <div class="footer_nav_ul fl">
+			                <div class="footer_nav_ul_t">
+			                    <h3>售后服务</h3>
+			                </div>
+			                <ul>
+			                    <li><a href="#">赔偿承诺</a></li>
+			                    <li><a href="#">发票制度</a></li>
+			                    <li><a href="#">退货政策</a></li>
+			                </ul>
+			            </div>
+			            <div class="footer_nav_ul fl">
+			                <div class="footer_nav_ul_t">
+			                    <h3>常见问题</h3>
+			                </div>
+			                <ul>
+			                    <li><a href="#">购物问题</a></li>
+			                    <!-- <li><a href="http://www.supumall.com/Helper/helpQuestionImported" >保税区海淘</a></li> -->
+			                    <li><a href="#">账户安全</a></li>
+			                </ul>
+			            </div>
+			            <div class="footer_nav_ul fl">
+			                <div class="footer_nav_ul_t">
+			                    <h3>联系我们</h3>
+			                </div>
+			                <ul>
+			                    <li><a href="#" >联系客服</a></li>
+			                    <li><a href="#">意见反馈</a></li>
+			                    <li><a href="#">新浪微博</a></li>
+			                </ul>
+			            </div>
+			            <div class="footer_nav_ul fl" style="border: none;">
+			                <img src="img/erweima.jpg" alt="微信二维码"/></div>
+			        </div>
+			    </div>
+			    <div class="supuy_info_box">
+			        <div class="supuy_info">
+			            <ul>
+			                <li><a href="#">关于我们</a></li>
+			                <li><a href="#">人才招聘</a></li>
+			                <li><a href="#">联系我们</a></li>
+			                <li><a href="#" style="border:none;">招商合作</a></li>
+			                <li>
+			                    <a href="#" style="text-decoration:none;height:20px;line-height:20px;width: 100%;">
+			                        <img src="img/ghs.png" style="float:left;">
+			                        京公网安备 37021202000512号
+			                    </a>
+			                    
+			                </li>
+			            </ul>
+			            <div class="clear"></div>
+			        </div>
+			        <div class="rightinfo">Copyright © 速普商城 2010-2016 All Right Reseved 鲁 ICP 证 09059644 号</div>
+			        <div class="zizhi">
+			                    
+			            <a href="#"><img src="img/police_id.jpg" alt="营业执照公示"/></a>
+			            
+			            
+			        </div>
+    </div>
+
+		</footer>
+	</body>
+</html>
